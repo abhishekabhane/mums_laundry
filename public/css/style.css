@@ -209,9 +209,10 @@ body {
     font-size: 15px;
 }
 
-.bg-gradient-radial {
+
+/* .bg-gradient-radial {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
-}
+} */
 
 .bg-gradient-radial2 {
     background: radial-gradient(circle, rgba(24, 75, 134, 1) 0%, rgba(255, 255, 255, 0) 70%);
