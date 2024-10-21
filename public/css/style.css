@@ -1,0 +1,248 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .washing_image img {
+        display: flex;
+        margin: unset;
+        position: relative;
+    }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.arrow {
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    background: linear-gradient(180deg, #00BACF -7.19%, #005E69 103.31%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.logo-color {
+    color: #00BACF;
+}
+
+.bg-image {
+    background-image: url('/images/bg-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.marginbottom {
+    margin-bottom: 15%;
+}
+
+.Yarrow {
+    background-color: rgba(215, 223, 163, 1);
+    font-family: 'Gothic A1', sans-serif;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.bg-yellow {
+    background-color: rgba(215, 223, 163, 1);
+}
+
+#padding {
+    padding: 8%;
+    padding-bottom: unset !important;
+}
+
+.Pcolor {
+    color: rgba(60, 75, 92, 1);
+}
+
+.bg-offwhite {
+    background-color: rgba(233, 223, 216, 1);
+}
+
+.arrow1 {
+    font-family: 'Gothic A1', sans-serif;
+    color: black;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.button-text {
+    padding-left: 20px !important;
+}
+
+.book-btn {
+    padding-left: 20px !important;
+    background: linear-gradient(180deg, #00BACF -7.19%, #005E69 103.31%);
+    color: white;
+}
+
+.washing_image img {
+    margin: -350px 0 0 300px;
+}
+
+.services_block {
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.img {
+    margin: 0 auto;
+}
+
+.p-border {
+    border-left: 2px solid black;
+}
+
+.pad {
+    padding: 2%;
+}
+
+.mobile {
+    height: 1000px;
+    width: 600px;
+    margin-bottom: -250px;
+    margin-top: -200px;
+}
+
+#blue3 {
+    padding: 8%;
+    padding-top: unset;
+}
+
+.stores {
+    margin-top: -180px;
+}
+
+.app {
+    width: 160px;
+    height: 48px;
+}
+
+.black {
+    color: black !important;
+}
+
+.bg-footer-discount {
+    background-color: rgba(16, 53, 95, 1);
+    padding: 25px;
+    margin-top: -95px;
+}
+
+.email {
+    border-bottom: 2px solid black !important;
+    border: none;
+    background: transparent;
+}
+
+.enter {
+    background: linear-gradient(180deg, #00BACF -7.19%, #005E69 103.31%);
+}
+
+.round_image {
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#blue {
+    padding: 8%;
+}
+
+.bg-blue {
+    background-color: rgba(24, 75, 134, 1);
+}
+
+.input-width {
+    width: 539px;
+}
+
+#blue2 {
+    padding-left: 8%;
+}
+
+.bg-color {
+    background-color: rgba(240, 247, 255, 1);
+}
+
+.Liner-gradient {
+    background: linear-gradient(180deg, #00BACF -7.19%, #005E69 103.31%);
+}
+
+.weight {
+    font-weight: 500;
+}
+
+.text {
+    font-weight: 200;
+}
+
+
+/* .contact-info {
+    padding-left: 5px !important;
+} */
+
+.hor-line {
+    opacity: 0.5;
+}
+
+.slider {
+    padding: 30px;
+    margin: 0 auto;
+    background: transparent !important;
+}
+
+.font {
+    font-size: 15px;
+}
+
+.bg-gradient-radial {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.bg-gradient-radial2 {
+    background: radial-gradient(circle, rgba(24, 75, 134, 1) 0%, rgba(255, 255, 255, 0) 70%);
+    padding: 0 10% 0 10%;
+}
+
+.bg-gradient-radial3 {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
+    padding: 0 10% 0 10%;
+}
+
+.bullet {
+    list-style-type: disc;
+}
+
+@media only screen and (max-width: 1200px) {
+    .washing_image img {
+        position: relative;
+        display: flex;
+        margin: -400px 0 0 0;
+    }
+    .footer-logo img {
+        margin-left: unset !important;
+    }
+    /* .list {
+        margin: 0 auto;
+    } */
+    .input-width {
+        width: unset;
+    }
+    .stores {
+        margin-top: -100px;
+    }
+}
